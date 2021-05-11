@@ -1,5 +1,6 @@
 import React from 'react';
 import Styles from '../../styles/sass/test.module.scss';
+import {auth} from '../../firebase'
 
 const Test: React.FC = () => {
   type f = {
@@ -10,10 +11,10 @@ const Test: React.FC = () => {
     a: 'd',
   };
 
-  console.log('testLog');
+  console.log('auth ',auth);
   return (
     <div className={Styles.test}>
-      <p>success!!!!!!</p>
+      <p>success!!!!!</p>
     </div>
   );
 };
