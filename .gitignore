@@ -33,4 +33,5 @@ yarn-error.log*
 # vercel
 .vercel
 
+#firebaseの構成情報
 .env
